@@ -1,0 +1,60 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Gilroy';
+}
+
+html,body{
+    height: 100%;
+    width: 100%;
+
+}
+
+body{
+    background-color: cornflowerblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card{
+    width: 20vw;
+    height: 60vh;
+    background-color: #fff;
+    border-radius: 5%;
+    padding: 1vmax;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.card>img{
+    width: 100%;
+    height: 55%;
+    object-fit: cover;
+    object-position: center;
+    border-radius: 4%;
+}
+
+.card>h1{
+    font-size: 3vmax;
+   
+}
+.card>h3{
+    color: palevioletred;
+    font-size: 1.5vmax;
+}
+
+.card>button{
+    padding: 0.7vmax 5vmax;
+    border-radius: 5%;
+    cursor: pointer;
+    border: none;
+    margin: 1vmax;
+    background-color: cadetblue;
+    color: #fff;
+    
+}
+
